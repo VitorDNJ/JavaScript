@@ -1,2 +1,2 @@
 # JavaScript
-brincando com js
+📘 Buscando aprimorar lógica de programação e boas práticas em JS
