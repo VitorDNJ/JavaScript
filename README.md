@@ -1,2 +1,2 @@
 # JavaScript
-📘 Buscando aprimorar lógica de programação e boas práticas em JS
+Repositório criado para praticar e entender os fundamentos do JavaScript, com exercícios e códigos simples para quem está começando.
