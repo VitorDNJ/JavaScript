@@ -8,4 +8,4 @@ console.log("Peso: ", peso);
 
 // Exercício 2          
 const PI = 3.14159;
-console.log("O valor de PI é ", PI);
+console.log("O valor de PI é: ", PI);
