@@ -9,3 +9,8 @@ console.log("Peso: ", peso);
 // Exercício 2          
 const PI = 3.14159;
 console.log("O valor de PI é: ", PI);
+
+// Exercício 3:
+let númeroMáximo = Number.MAX_VALUE;
+console.log("Número Máximo: ", númeroMáximo);
+
