@@ -21,7 +21,22 @@ let nomeCompleto = nome + " " + sobrenome;
 console.log("Nome Completo: ", nomeCompleto);
 
 // Exercício 5:
-let num1 = 20;
+let num1 = 50;
 let num2 = 30;
 let soma = num1 + num2;
 console.log("A soma é: ", soma);
+
+// Exercício 6:
+let bool1 = true;
+let bool2 = false;
+console.log("AND: ", bool1 && bool2);  // E lógico: retorna verdadeiro se ambas as expressões são verdadeiras e falso nos demais casos.
+console.log("OR: ", bool1 || bool2);   // OU lógico: retorna verdadeiro se pelo menos uma das expressões é verdadeira e falso se todas são falsas.
+console.log("NOT: ", !bool1);          // NÃO lógico: retorna verdadeiro se o operador é falso e vice-versa.
+
+// Exercício 7:
+let n1 = 10;
+let n2 = 20;
+let n3 = 30;
+console.log("n1 < n2: ", n1 < n2);   // Compara se o valor n1 é menor que o n2 
+console.log("n2 > n3: ", n2 > n3);   // Compara se o n2 é maior que o n3 
+console.log("n1 == n3: ", n1 == n3); // Compara se o n1 é igual ao n3
