@@ -15,10 +15,10 @@ let númeroMáximo = Number.MAX_VALUE;
 console.log("Número Máximo: ", númeroMáximo);
 
 // Exercício 4:
-let nome = "vitor";
-let sobrenome = "justino";
-let nomeCompleto = nome + " " + sobrenome;
-console.log("Nome Completo: ", nomeCompleto);
+let nome = "Vitor";
+let sobrenome = "Justino";
+let nomeSobrenome = nome + " " + sobrenome;
+console.log("Seu nome é: ", nomeSobrenome);
 
 // Exercício 5:
 let num1 = 50;
@@ -37,6 +37,9 @@ console.log("NOT: ", !bool1);          // NÃO lógico: retorna verdadeiro se o 
 let n1 = 10;
 let n2 = 20;
 let n3 = 30;
-console.log("n1 < n2: ", n1 < n2);   // Compara se o valor n1 é menor que o n2 
-console.log("n2 > n3: ", n2 > n3);   // Compara se o n2 é maior que o n3 
-console.log("n1 == n3: ", n1 == n3); // Compara se o n1 é igual ao n3
+console.log("n1 < n2: ", n1 < n2);   // Compara se o valor n1 é menor que o n2.
+console.log("n2 > n3: ", n2 > n3);   // Compara se o n2 é maior que o n3.
+console.log("n1 == n3: ", n1 == n3); // Compara se o n1 é igual ao n3.
+
+
+
