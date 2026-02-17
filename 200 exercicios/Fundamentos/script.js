@@ -1,12 +1,12 @@
 // Variáveis, tipos de dados e operadores
 
-// Exercício 1
+// Exercício 1:
 let idade = 25;
 let peso = 70;
 console.log("Idade: ", idade);
 console.log("Peso: ", peso);
 
-// Exercício 2          
+// Exercício 2:          
 const PI = 3.14159;
 console.log("O valor de PI é: ", PI);
 
@@ -40,6 +40,12 @@ let n3 = 30;
 console.log("n1 < n2: ", n1 < n2);   // Compara se o valor n1 é menor que o n2.
 console.log("n2 > n3: ", n2 > n3);   // Compara se o n2 é maior que o n3.
 console.log("n1 == n3: ", n1 == n3); // Compara se o n1 é igual ao n3.
+
+// Exercício 8:
+let num = 10;
+num++;
+console.log("Número incrementado: ", num);
+
 
 
 
