@@ -14,3 +14,14 @@ console.log("O valor de PI é: ", PI);
 let númeroMáximo = Number.MAX_VALUE;
 console.log("Número Máximo: ", númeroMáximo);
 
+// Exercício 4:
+let nome = "vitor";
+let sobrenome = "justino";
+let nomeCompleto = nome + " " + sobrenome;
+console.log("Nome Completo: ", nomeCompleto);
+
+// Exercício 5:
+let num1 = 20;
+let num2 = 30;
+let soma = num1 + num2;
+console.log("A soma é: ", soma);
