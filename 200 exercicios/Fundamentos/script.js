@@ -46,6 +46,44 @@ let num = 10;
 num++;
 console.log("Número incrementado: ", num);
 
+// Operadores Condicionais
+// Exercício 9:
+function verificarNumero(num){
+    if(num >0) {
+        console.log("O número é positivo"); } 
+    else if (num <0) {
+        console.log("O número é negativo"); }
+    else{
+        console.log("O número é zero");}
+}
+verificarNumero(10); // Imprime o número é positivo
+verificarNumero(-5); // Imprime o número é negativo
+verificarNumero(0);  // Imprime o número é zero
+verificarNumero(25); // Imprime o número é positivo
 
+// Exercício 10:
+function calcularMedia(nota1, nota2){
+    var media = (nota1 + nota2) / 2 ;
+    if(media>= 7){
+    console.log("Aluno aprovado com a média: " + media);
+    } else { 
+    console.log("Aluno reprovado com a média: " + media);
+    }
+}
+calcularMedia(8, 6); // Imprime: Aluno aprovado com a média: 7
+calcularMedia(5, 6); // Imprime: Aluno reprovado com a média: 5.5
 
-
+// Exercício 11:
+function podeVotar(idade){
+    if (idade >=18 && idade <70){
+        console.log("Voto obrigatório.");
+    } else if( (idade>=16 && idade <18) || idade >= 70 ){
+        console.log("Voto facultativo.");
+    } else {
+        console.log("Não vota.");
+    }
+}
+podeVotar(15); // Imprime: Não vota.
+podeVotar(16); // Imprime: Voto facultativo.
+podeVotar(18); // Imprime: Voto obrigatório.
+podeVotar(70); // Imprime: Voto facultativo.
