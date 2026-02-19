@@ -87,3 +87,34 @@ podeVotar(15); // Imprime: Não vota.
 podeVotar(16); // Imprime: Voto facultativo.
 podeVotar(18); // Imprime: Voto obrigatório.
 podeVotar(70); // Imprime: Voto facultativo.
+
+// Exercício 12:
+function situacaoEstudante(mediaFinal){
+if(mediaFinal >= 7){
+    console.log("Aprovado.");
+} else if (mediaFinal >=5 && mediaFinal < 7){
+    console.log("Em recuperação.")
+} else {
+    console.log("Reprovado.")
+}
+}
+situacaoEstudante(7); // Imprime: Aprovado.
+situacaoEstudante(6); // Imprime: Em recuperação.
+situacaoEstudante(4); // Imprime: Reprovado.
+
+// Exercício 13:
+function calcularIMC(peso, altura){
+    var imc = peso / (altura * altura);
+    if(imc <18.5){
+        console,log("Abaixo do peso");
+    } else if(imc >= 18.5 && imc <25){
+        console.log("Peso normal.");
+    } else if(imc >=25 && imc <30){
+        console.log("Sobrepeso");
+    } else{
+        console.log("Obesidade.")
+    }
+}
+calcularIMC(60 , 1.7); // Imprime: Peso normal
+calcularIMC(80 , 1.7); // Imprime: Sobrepeso
+calcularIMC(90 , 1.7); // Imprime: Obesidade
