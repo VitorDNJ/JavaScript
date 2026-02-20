@@ -137,7 +137,7 @@ function verificarPalindromo(palavra){
     if (palavra == palavraInvertida) {
         console.log(palavra + " é um palíndromo");
     } else {
-        console.log(palavra + " não é um políndromo");
+        console.log(palavra + " não é um palíndromo");
     }
 }
 verificarPalindromo(arara); // Imprime: arara é um palíndromo
