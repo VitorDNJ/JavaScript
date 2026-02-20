@@ -130,3 +130,83 @@ function verificarBissexto(ano){
 verificarBissexto(2000); // Imprime: 2000 é um ano bissexto
 verificarBissexto(2001); // Imprime: 2001 não é um ano bissexto
 verificarBissexto(2028); // Imprime: 2028 é um ano bissexto
+
+// Exercício 15:
+function verificarPalindromo(palavra){
+    var palavraInvertida = palavra.split('').reverse().join('');
+    if (palavra == palavraInvertida) {
+        console.log(palavra + " é um palíndromo");
+    } else {
+        console.log(palavra + " não é um políndromo");
+    }
+}
+verificarPalindromo(arara); // Imprime: arara é um palíndromo
+verificarPalindromo(gato); // Imprime: gato não é um palíndromo
+
+// Exercício 16:
+function maiorNumero(n10, n11, n12){
+if (n10 > n11 && n10 > n12) {
+    console.log(n10 + " é o maior número");
+} else if (n11 > n12 && n11 > n10){
+    console.log(n11 + " é o maior número");
+} else {
+    console.log(n12 + " é o maior número");
+}
+}
+maiorNumero(1, 2, 3); // Imprime: 3 é o maior número.
+maiorNumero(5, 3, 4); // Imprime: 5 é o maior número.
+maiorNumero(7, 8, 7); // Imprime: 8 é o maior número.
+
+// Exercício 17:
+function parOuImpar(numero){
+    if (numero % 2 == 0){
+        console.log(numero + " é par");
+    } else {
+        console.log(numero + " é ímpar");
+    }
+}
+parOuImpar(2); // Imprime: o número é par.
+parOuImpar(3); // Imprime: o número é ímpar.
+
+// Exercício 18:
+function podeDirigir(idade){
+    if (idade >=18){
+        console.log("Pode dirigir.")
+    } else {
+        console.log("Não pode dirigir.");
+    }
+}
+podeDirigir(18); // Imprime: Pode dirigir.
+podeDirigir(15); // Imprime: Não pode dirigir.
+podeDirigir(22); // Imprime: Pode dirigir.
+
+// Exercício 19:
+function dentroDoIntervalo(numero, limiteInferior, limiteSuperior){
+    if(numero >= limiteInferior && numero <= limiteSuperior){
+        console.log(numero + " está dentro do intervalo.");
+    } else {
+        console.log(numero + " está fora do intervalo.");
+    }
+}
+dentroDoIntervalo (5, 1, 10); // Imprime: 5 está dentro do intervalo.
+dentroDoIntervalo(15, 1, 10); // Imprime: 15 está fora do intervalo.
+
+// Exercício 20:
+function classificarAluno(nota){
+    if (nota >= 90){
+        console.log("A");
+    } else if (nota >= 80){
+        console.log("B");
+    } else if (nota >= 70){
+        console.log("C");
+    } else if (nota >= 60){
+        console.log("D");
+    } else {
+        console.log("E");
+    }
+}
+classificarAluno(95); // Imprime: A
+classificarAluno(82); // Imprime: B
+classificarAluno(74); // Imprime: C
+classificarAluno(62); // Imprime: D
+classificarAluno(55); // Imprime: E
