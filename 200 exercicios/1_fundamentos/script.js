@@ -140,8 +140,8 @@ function verificarPalindromo(palavra){
         console.log(palavra + " não é um palíndromo");
     }
 }
-verificarPalindromo(arara); // Imprime: arara é um palíndromo
-verificarPalindromo(gato); // Imprime: gato não é um palíndromo
+verificarPalindromo( "arara" ); // Imprime: arara é um palíndromo
+verificarPalindromo( "gato" ); // Imprime: gato não é um palíndromo
 
 // Exercício 16:
 function maiorNumero(n10, n11, n12){
