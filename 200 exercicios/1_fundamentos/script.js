@@ -248,3 +248,41 @@ function determinarDiasNoMes(mes){
 determinarDiasNoMes(2); // Imprime: 28 ou 29 dias.
 determinarDiasNoMes(4); // Imprime: 30 dias.
 determinarDiasNoMes(1); // Imprime: 31 dias.
+
+// Exercício 23:
+function verificaSemafaro(cor){
+    if (cor === "verde"){
+        console.log("Siga em frente.");
+    } else if (cor === "amarelo"){
+        console.log("Atenção, diminua a velocidade.");
+    } else if (cor === "vermelho"){
+        console.log("Pare seu veículo.");
+    } else{
+    console.log("Envie uma cor válida.");
+    }
+}
+verificaSemafaro("verde");     // Imprime: Siga em frente.
+verificaSemafaro("amarelo");   // Imprime: Atenção, diminua a velocidade.
+verificaSemafaro("vermelho");  // Imprime: Pare seu veículo.
+verificaSemafaro("azul");      // Imprime: Envie uma cor válida.
+
+// Laços de Repetição:
+// Exercício 24:
+for (let i = 1; i<=10; i++){
+    console.log(i);
+}
+
+// Exercício 25:
+let i = 10;
+while(i >=1){
+    console.log(i);
+    i--;
+}
+
+// Exercício 26:
+let j = 1;
+do { if(j % 2 != 0){
+        console.log(i);
+}
+i++;
+} while (j <=20);
