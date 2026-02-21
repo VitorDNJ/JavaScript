@@ -191,6 +191,7 @@ function dentroDoIntervalo(numero, limiteInferior, limiteSuperior){
 dentroDoIntervalo (5, 1, 10); // Imprime: 5 está dentro do intervalo.
 dentroDoIntervalo(15, 1, 10); // Imprime: 15 está fora do intervalo.
 
+
 // Exercício 20:
 function classificarAluno(nota){
     if (nota >= 90){
@@ -210,3 +211,40 @@ classificarAluno(82); // Imprime: B
 classificarAluno(74); // Imprime: C
 classificarAluno(62); // Imprime: D
 classificarAluno(55); // Imprime: E
+
+// Exercício 21:
+function determinarEstacao(mes){
+if (mes <3 || mes === 12){
+    console.log("Verão");
+} else if (mes < 6){
+    console.log("Outono");
+} else if (mes < 9 ){
+    console.log("Inverno");
+} else {
+    console.log("Primavera");
+}
+}
+determinarEstacao(12); // Imprime: Verão
+determinarEstacao(4);  // Imprime: Outono
+determinarEstacao(7);  // Imprime: Inverno
+determinarEstacao(10); // Imprime: Primavera
+
+// Exercício 22:
+function determinarDiasNoMes(mes){
+    switch(mes){
+        case 2:
+            console.log("28 ou 29 dias");
+            break;
+        case 4:
+        case 6:
+        case 9:
+        case 11:
+            console.log("30 dias");
+        break;
+        default:
+            console.log("31 dias")
+    }
+}
+determinarDiasNoMes(2); // Imprime: 28 ou 29 dias.
+determinarDiasNoMes(4); // Imprime: 30 dias.
+determinarDiasNoMes(1); // Imprime: 31 dias.
